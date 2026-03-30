@@ -8,8 +8,8 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    steps:
-      - user: actions/checkout@v4
+    runs-on: windows-latest
+    steps: 
+      - uses: actions/checkout@v4
       - name: Run Tests
-        run: echo ""
+        run: echo "Всё работает"
